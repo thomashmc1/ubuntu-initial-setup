@@ -4,7 +4,7 @@
 sudo apt-get update
 
 echo "Install Git..."
-sudo apt-get install git
+yes Y | sudo apt-get install git
 echo "Git installed ******"
 
 echo "Install NVM..."
